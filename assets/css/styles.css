@@ -1,0 +1,89 @@
+body{
+	overflow-x: hidden;
+	background-color: #E6E6E6;
+}
+body,html{
+	height: 100%;
+}
+.menu-topo nav{
+	background-color: #01405B!important;
+}
+.menu-topo nav ul > li > a, .menu-topo nav > a{
+	color: #fff!important
+}
+#menu-topo .dropdown-menu {
+	left: -50px !important;
+	font-size: .8em
+}
+.menu-topo nav ul > li > a:hover,.menu-topo nav ul > li > a:focus{
+	background-color: #03354C;
+}
+.menu-busca .btn{
+	background-color: #298AB4;
+}
+.menu-busca .input-group-addon{
+	background-color: #FCFCFC;
+	width: 70px;
+}
+.conteudo{
+	background-color: #fff;
+	padding: 20px;
+}
+.conteudo h4{
+	font-size: 1.1em;
+	color:#298AB4;
+}
+.conteudo p{
+	font-size: .9em
+}
+.conteudo .icones{
+	font-size: .7em
+}
+.conteudo .icones a{
+	color:#000;
+}
+.conteudo .icones a i.fa-trash{
+	color: #CA3C38
+}
+
+
+
+   
+
+	/* remove outer padding */
+	.main .row{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	/*Remove rounded coners*/
+
+	nav.sidebar.navbar {
+		border-radius: 0px;
+	}
+
+	nav.sidebar, .main{
+		-webkit-transition: margin 200ms ease-out;
+	    -moz-transition: margin 200ms ease-out;
+	    -o-transition: margin 200ms ease-out;
+	    transition: margin 200ms ease-out;
+	}
+
+	/* Add gap to nav and right windows.*/
+	.main{
+		padding: 10px 10px 0 10px;
+	}
+
+	/* .....NavBar: Icon only with coloring/layout.....*/
+
+	nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+		color: #CCC;
+		background-color: transparent;
+	}
+
+	nav:hover .forAnimate{
+		opacity: 1;
+	}
+	section{
+		padding-left: 15px;
+	}
